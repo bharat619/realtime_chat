@@ -7,54 +7,7 @@
     <div class="ui fluid raised card chatbox">
       <div class="content">
         <div class="ui large feed">
-          <div class="event">
-            <div class="content">
-              <div class="summary">
-                <em class="user">
-                  Elliot Fu
-                </em>: Test message
-                <div class="date">
-                  1 Hour Ago
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="event">
-            <div class="content">
-              <div class="summary">
-              </div>
-              <div class="extra text">
-                I'm having a BBQ this weekend. Come by around 4pm if you can.
-              </div>
-              <div class="meta">
-                <a class="like">
-                  <i class="like icon"></i> 11 Likes
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="event">
-            <div class="label">
-              <img src="/images/avatar/small/helen.jpg">
-            </div>
-            <div class="content">
-              <div class="date">
-                4 days ago
-              </div>
-              <div class="summary">
-                <a>Helen Troy</a> added <a>2 new illustrations</a>
-              </div>
-              <div class="extra images">
-                <a><img src="/images/wireframe/image.png"></a>
-                <a><img src="/images/wireframe/image.png"></a>
-              </div>
-              <div class="meta">
-                <a class="like">
-                  <i class="like icon"></i> 1 Like
-                </a>
-              </div>
-            </div>
-          </div>
+          <%= render @messages %>
         </div>
       </div>
       <div class="extra content">

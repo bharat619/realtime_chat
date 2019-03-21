@@ -4,6 +4,6 @@ class HomeController < ApplicationController
 
   def index
     @message = Message.new
-    @messages = Message.all
+    @messages = Message.message_limit
   end
 end
